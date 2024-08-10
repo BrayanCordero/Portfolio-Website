@@ -1,16 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <nav>
-        <h1>About</h1>
-        <h1>Projects</h1>
-        <h1>Contact</h1>
-      </nav>
-    </div>
-  );
-}
+const App = ({ children }) => (
+  <div>
+    <Header />
+    <main>{children}</main>
+    <Footer />
+  </div>
+);
 
 export default App;
