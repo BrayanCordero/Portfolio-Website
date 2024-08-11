@@ -3,9 +3,11 @@ import Projects from "../components/Projects"
 
 
 const ProjectsPage = () => {
-    <div>
-        <Projects />
-    </div>
+    return (
+        <div>
+            <Projects />
+        </div>
+    )
 };
 
 export default ProjectsPage;

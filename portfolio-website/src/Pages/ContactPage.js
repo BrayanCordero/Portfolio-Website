@@ -3,9 +3,11 @@ import Contact from '../components/Contact'
 
 
 const ContactPage = () => {
-    <div>
-        <Contact />
-    </div>
+    return (
+        <div>
+            <Contact />
+        </div>
+    )
 };
 
 
