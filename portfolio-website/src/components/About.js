@@ -45,6 +45,13 @@ const About = () => {
                     <h4>Education:</h4>
                     <p>Cal Poly Pomona</p>
                     <p>Bachelor's of Science Applied Mathematics</p>
+                    <h2>Certifications:</h2>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>Version Control</li>
+                        <li>HTML & CSS</li>
+                    </ul>
                     <h4>Location:</h4>
                     <p>San Bernardino, CA</p>
                 </p>
