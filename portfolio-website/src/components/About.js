@@ -4,7 +4,6 @@ const About = () => {
     return (
         <div className='about-container'>
             <div className='about'>
-                <h2>About Me</h2>
                 <p>Hello and welcome, I'm Brayan Cordero</p>
                 <p>As a Full Stack Engineer, I specialize in crafting responsive and dynamic user interfaces with React, Redux, and JavaScript.
                     On the back end, I bring experience in Node.js, Python, .NET, and C#, building robust and scalable applications. 
@@ -19,7 +18,6 @@ const About = () => {
                     <ul>
                         <li>React/Redux</li>
                         <li>JavaScript</li>
-                        <li>Node.js</li>
                         <li>HTML & CSS</li>
                         <li>Angular</li>
                         <li>TypeScript</li>
@@ -30,10 +28,12 @@ const About = () => {
                     <h2>Backend</h2>
                     <ul>
                         <li>Python</li>
+                        <li>Node.js</li>
                         <li>Express</li>
                         <li>C#</li>
                         <li>ADO.Net</li>
                         <li>PostgresSQL</li>
+                        <li>Microsoft SQL Server</li>
                     </ul>
                 </div>
             </div>
@@ -42,6 +42,9 @@ const About = () => {
                 <p>
                     <h4>Name:</h4>
                     <p>Brayan Cordero</p>
+                    <h4>Education:</h4>
+                    <p>Cal Poly Pomona</p>
+                    <p>Bachelor's of Science Applied Mathematics</p>
                     <h4>Location:</h4>
                     <p>San Bernardino, CA</p>
                 </p>
