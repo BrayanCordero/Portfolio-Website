@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    border-radius: 50%;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+    padding: 5px;
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
