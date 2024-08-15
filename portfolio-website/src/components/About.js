@@ -4,7 +4,6 @@ const About = () => {
     return (
         <div className='about-container'>
             <div className='about'>
-                <p>Hello and welcome, I'm Brayan Cordero</p>
                 <p>As a Full Stack Engineer, I specialize in crafting responsive and dynamic user interfaces with React, Redux, and JavaScript.
                     On the back end, I bring experience in Node.js, Python, .NET, and C#, building robust and scalable applications. 
                     With a strong foundation in Agile methodologies and a passion for problem-solving, I thrive in collaborative environments. 
