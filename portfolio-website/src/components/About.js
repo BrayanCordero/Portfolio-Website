@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/AboutStyle.css'
 
 const About = () => {
     return (
@@ -12,50 +13,50 @@ const About = () => {
             </div>
             <div className='skill-container'>
                 <h1>Skills Overview</h1>
-                <div className='frontend'>
-                    <h2>Frontend</h2>
-                    <ul>
-                        <li>React</li>
-                        <li>JavaScript</li>
-                        <li>Angular</li>
-                        <li>TypeScript</li>
-                        <li>ASP.Net</li>
-                        <li>HTML & CSS</li>
-                    </ul>
-                </div>
-                <div className='Backend'>
-                    <h2>Backend</h2>
-                    <ul>
-                        <li>Python</li>
-                        <li>Node.js</li>
-                        <li>Express</li>
-                        <li>C#</li>
-                        <li>ADO.Net</li>
-                        <li>PostgresSQL</li>
-                        <li>Microsoft SQL Server</li>
-                    </ul>
+                <div className='skills'>
+                    <div className='frontend'>
+                        <h2>Frontend</h2>
+                        <ul>
+                            <li>React</li>
+                            <li>JavaScript</li>
+                            <li>Angular</li>
+                            <li>TypeScript</li>
+                            <li>ASP.Net</li>
+                            <li>HTML & CSS</li>
+                        </ul>
+                    </div>
+                    <div className='backend'>
+                        <h2>Backend</h2>
+                        <ul>
+                            <li>Python</li>
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>C#</li>
+                            <li>ADO.Net</li>
+                            <li>PostgresSQL</li>
+                            <li>Microsoft SQL Server</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+            <div className='certifications'>
+                <h1>Certifications</h1>
+                <ul>
+                    <a href="https://www.codecademy.com/profiles/L0rdLost/certificates/6c152bd262967f8c941c9707ed636bda" target="_blank" rel="noopener noreferrer"><li>Python</li></a>
+                    <a href="https://coursera.org/share/cd285a6c835268abec1d6ab014e1b799" target="_blank" rel="noopener noreferrer"><li>JavaScript</li></a>
+                    <a href="https://coursera.org/share/53cbe5a0c6f0697e37b3ee7ed2c8f555" target="_blank" rel="noopener noreferrer"><li>Version Control</li></a>
+                    <a href='https://www.codecademy.com/profiles/L0rdLost/certificates/43dd707594a64f9e8f93b727e16eb9dd' target="_blank" rel="noopener noreferrer"><li>React</li></a>
+                    <a href='https://www.codecademy.com/profiles/L0rdLost/certificates/6635cb9acaac43e3b713d72debc2149b' target='_black' rel='noopener noreferrer'><li>Redux</li></a>
+                    <a href="https://coursera.org/share/86f1339ed69f3dc72701e7d3fd8fab21" target="_blank" rel="noopener noreferrer"><li>HTML & CSS</li></a>
+                </ul>
+            </div>
             <div className='details'>
-                <h2>Details</h2>
-                <p>
-                    <h4>Name:</h4>
-                    <p>Brayan Cordero</p>
-                    <h4>Education:</h4>
-                    <p>Cal Poly Pomona</p>
-                    <p>Bachelor's of Science Applied Mathematics</p>
-                    <h2>Certifications:</h2>
-                    <ul>
-                        <a href="https://www.codecademy.com/profiles/L0rdLost/certificates/6c152bd262967f8c941c9707ed636bda" target="_blank" rel="noopener noreferrer"><li>Python</li></a>
-                        <a href="https://coursera.org/share/cd285a6c835268abec1d6ab014e1b799" target="_blank" rel="noopener noreferrer"><li>JavaScript</li></a>
-                        <a href="https://coursera.org/share/53cbe5a0c6f0697e37b3ee7ed2c8f555" target="_blank" rel="noopener noreferrer"><li>Version Control</li></a>
-                        <a href='https://www.codecademy.com/profiles/L0rdLost/certificates/43dd707594a64f9e8f93b727e16eb9dd' target="_blank" rel="noopener noreferrer"><li>React</li></a>
-                        <a href='https://www.codecademy.com/profiles/L0rdLost/certificates/6635cb9acaac43e3b713d72debc2149b' target='_black' rel='noopener noreferrer'><li>Redux</li></a>
-                        <a href="https://coursera.org/share/86f1339ed69f3dc72701e7d3fd8fab21" target="_blank" rel="noopener noreferrer"><li>HTML & CSS</li></a>
-                    </ul>
-                    <h4>Location:</h4>
-                    <p>San Bernardino, CA</p>
-                </p>
+                <h1>Details</h1>
+                <h4>Education:</h4>
+                <p>Cal Poly Pomona</p>
+                <p>Bachelor's of Science Applied Mathematics</p>
+                <h4>Location:</h4>
+                <p>California, US</p>
             </div>
         </div>
     )
