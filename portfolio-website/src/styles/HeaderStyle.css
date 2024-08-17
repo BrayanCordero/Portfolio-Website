@@ -23,13 +23,13 @@ nav img {
     margin: 0 15px;
 }
 
-li a {
+.nav li a {
     text-decoration: none;
     color: white;
     font-size: 2.5rem;
 }
 
-li a:hover {
+.nav li a:hover {
     text-decoration: none;
     border-bottom: 2px solid red;
 }
@@ -53,7 +53,7 @@ li a:hover {
         margin: 0 10px;
     }
 
-    li a {
+    .nav li a {
         font-size: 1.25rem;
     }
 }
@@ -65,11 +65,15 @@ li a:hover {
         height: 35px;
     }
 
-    li a {
+    .nav li a {
         font-size: 1rem;
     }
 
+    .nav {
+        margin-right: 0;
+    }
+
     .nav li {
-        margin: 0 8px;
+        margin: 8px 0;
     }
 }

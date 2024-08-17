@@ -24,16 +24,6 @@ main {
     background-color: #000;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-    text-decoration-color: red;
-}
-
 
 footer {
     text-align: center;
