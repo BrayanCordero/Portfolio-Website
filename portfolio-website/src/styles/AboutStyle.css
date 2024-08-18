@@ -86,16 +86,7 @@
 }
 
 .certifications a {
-    text-decoration: none;
-    color: #007bff;
-    font-weight: bold;
-    cursor: pointer;
-    transition: color 0.2s ease-in-out;
-}
-
-.certifications a:hover {
-    color: #0056b3;
-    text-decoration: underline;
+    font-size: 1.5rem;
 }
 
 

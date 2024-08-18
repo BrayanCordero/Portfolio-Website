@@ -43,12 +43,12 @@ const About = () => {
                 <h1>Certifications</h1>
                 <div className='certifications-card'>
                     <ul>
-                        <a href="https://www.codecademy.com/profiles/L0rdLost/certificates/6c152bd262967f8c941c9707ed636bda" target="_blank" rel="noopener noreferrer"><li>Python</li></a>
-                        <a href="https://coursera.org/share/cd285a6c835268abec1d6ab014e1b799" target="_blank" rel="noopener noreferrer"><li>JavaScript</li></a>
-                        <a href="https://coursera.org/share/53cbe5a0c6f0697e37b3ee7ed2c8f555" target="_blank" rel="noopener noreferrer"><li>Version Control</li></a>
-                        <a href='https://www.codecademy.com/profiles/L0rdLost/certificates/43dd707594a64f9e8f93b727e16eb9dd' target="_blank" rel="noopener noreferrer"><li>React</li></a>
-                        <a href='https://www.codecademy.com/profiles/L0rdLost/certificates/6635cb9acaac43e3b713d72debc2149b' target='_black' rel='noopener noreferrer'><li>Redux</li></a>
-                        <a href="https://coursera.org/share/86f1339ed69f3dc72701e7d3fd8fab21" target="_blank" rel="noopener noreferrer"><li>HTML & CSS</li></a>
+                        <li><a href="https://www.codecademy.com/profiles/L0rdLost/certificates/6c152bd262967f8c941c9707ed636bda" target="_blank" rel="noopener noreferrer">Python</a></li>
+                        <li><a href="https://coursera.org/share/cd285a6c835268abec1d6ab014e1b799" target="_blank" rel="noopener noreferrer">JavaScript</a></li>
+                        <li><a href="https://coursera.org/share/53cbe5a0c6f0697e37b3ee7ed2c8f555" target="_blank" rel="noopener noreferrer">Version Control</a></li>
+                        <li><a href='https://www.codecademy.com/profiles/L0rdLost/certificates/43dd707594a64f9e8f93b727e16eb9dd' target="_blank" rel="noopener noreferrer">React</a></li>
+                        <li><a href='https://www.codecademy.com/profiles/L0rdLost/certificates/6635cb9acaac43e3b713d72debc2149b' target='_black' rel='noopener noreferrer'>Redux</a></li>
+                        <li><a href="https://coursera.org/share/86f1339ed69f3dc72701e7d3fd8fab21" target="_blank" rel="noopener noreferrer">HTML & CSS</a></li>
                     </ul>
                 </div>
             </div>
