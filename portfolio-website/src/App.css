@@ -57,12 +57,16 @@ footer {
 }
 
 @media (max-width: 480px) {
-    header, footer {
+    header{
         font-size: 1.2rem;
     }
 
     main {
         padding: 10px;
+    }
+
+    footer {
+        font-size: 1rem;
     }
 }
 
