@@ -56,7 +56,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className='more'>
-                <h2>More Projects:</h2>
+                <h2>More Projects</h2>
                 <a href="https://github.com/BrayanCordero?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
         </div>

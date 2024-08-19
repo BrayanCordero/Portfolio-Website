@@ -10,20 +10,16 @@
     margin-bottom: 20px;
 }
 
-.about {
+.about, .skill-container, .certifications, .details {
     padding: 20px;
-    width: 75%;
-    background-color: black; 
-    border: 2px solid #e0e0e0; 
+    width: 100%;
+    background-color: #333; 
+    border: 2px groove #ffffff; 
     border-radius: 10px; 
-    box-shadow: 0 4px 10px rgba(254, 254, 254, 0.912);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     text-align: center;
     margin-bottom: 20px;
     transition: transform 0.3s ease;
-}
-
-.about:hover {
-    transform: translateY(-5px); 
 }
 
 .about p {
@@ -44,7 +40,7 @@
 }
 
 
-.skills, .certifications, .details-content {
+.skills, .details-content {
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -52,12 +48,12 @@
 }
 
 .skills > div, .certifications > div, .details-content > .detail-item {
-    background-color: black;
-    border: 2px solid #e0e0e0;
+    background-color: #444;
+    border: 2px solid white;
     border-radius: 10px;
     padding: 20px;
     width: 45%;
-    box-shadow: 0 4px 10px rgba(254, 254, 254, 0.912);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     transition: transform 0.3s ease;
 }
 
@@ -76,26 +72,54 @@
     padding: 0;
 }
 
-.skills li, .certifications li {
+.skills li {
     margin-bottom: 10px;
     font-size: 1rem;
+    padding: 8px 12px;
+    background-color: #555;
+    border-radius: 5px;
+    border: 1px solid #777;
 }
 
 .certifications {
     align-items: center;
 }
 
-.certifications a {
-    font-size: 1.5rem;
+.certifications ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    list-style-type: none;
 }
 
+.certifications a {
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #696868;
+    border-radius: 5px;
+    border: 1px solid #777;
+    cursor: pointer;
+    transition: background-color 0.3s ease border-color 0.3s ease;
+}
+
+.certifications a:hover {
+    background-color: #777;
+    border-color: #999;
+}
 
 @media (max-width: 768px) {
+    .about-container {
+        padding: 15px;
+    }
+
     .about-container h1 {
         font-size: 2.5rem; 
     }
 
-    .about {
+    .about, .skill-container, .certifications, .details {
         width: 90%;
     }
 
@@ -111,6 +135,10 @@
 }
 
 @media (max-width: 480px) {
+    .about-container {
+        padding: 10px;
+    }
+
     .about-container h1 {
         font-size: 2rem; 
     }
@@ -132,4 +160,5 @@
         max-width: none; 
     }
 }
+
 
