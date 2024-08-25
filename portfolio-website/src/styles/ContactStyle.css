@@ -10,9 +10,9 @@
     max-width: 500px;
     width: 100%;
     padding: 20px;
-    background-color: #444;
+    background-color: #032b0f;
     border-radius: 10px;
-    border: 2px groove #ffffff;
+    border: 2px groove #DBE8D8;
 }
 
 .form {
@@ -29,7 +29,7 @@
     width: 100%;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #777;
+    border: 1px solid #DBE8D8;
     box-sizing: border-box;
 }
 
@@ -40,7 +40,7 @@
 .submit-btn {
     padding: 10px 20px;
     background-color: #007BFF;
-    color: white;
+    color: #DBE8D8;
     border: none;
     border-radius: 5px;
     cursor: pointer;

@@ -13,8 +13,8 @@
 .about, .skill-container, .certifications, .details {
     padding: 20px;
     width: 100%;
-    background-color: #333; 
-    border: 2px groove #ffffff; 
+    background-color: #032b0f; 
+    border: 2px groove #DBE8D8; 
     border-radius: 10px; 
     box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     text-align: center;
@@ -23,7 +23,7 @@
 }
 
 .about p {
-    color: white; 
+    color: #DBE8D8; 
     font-size: 1.5rem; 
     line-height: 1.6; 
 }
@@ -48,8 +48,8 @@
 }
 
 .skills > div, .certifications > div, .details-content > .detail-item {
-    background-color: #444;
-    border: 2px solid white;
+    background-color:  #074119;
+    border: 2px solid #DBE8D8;
     border-radius: 10px;
     padding: 20px;
     width: 45%;
@@ -63,7 +63,7 @@
 
 .skills h2 {
     margin-bottom: 15px;
-    color: white;
+    color: #DBE8D8;
     font-size: 2rem;
 }
 
@@ -76,9 +76,9 @@
     margin-bottom: 10px;
     font-size: 1rem;
     padding: 8px 12px;
-    background-color: #555;
+    background-color: #2c6b41;
     border-radius: 5px;
-    border: 1px solid #777;
+    border: 1px solid #DBE8D8;
 }
 
 .certifications {
@@ -98,16 +98,16 @@
     display: inline-block;
     padding: 10px 15px;
     margin-bottom: 10px;
-    background-color: #696868;
+    background-color: #04160a;
     border-radius: 5px;
-    border: 1px solid #777;
+    border: 1px solid #DBE8D8;
     cursor: pointer;
     transition: background-color 0.3s ease border-color 0.3s ease;
 }
 
 .certifications a:hover {
-    background-color: #777;
-    border-color: #999;
+    background-color: #146b30;
+    border-color: #DBE8D8;
 }
 
 @media (max-width: 768px) {

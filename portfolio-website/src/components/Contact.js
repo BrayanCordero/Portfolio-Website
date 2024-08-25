@@ -57,12 +57,13 @@ const Contact = () => {
                     </div>
 
                     <div className='form'>
-                    <label htmlFor='email'>Email:</label>
-                    <input type='email' id='email' name='email' value={email} onChange={(e) => setEmail(e.target.value)} required/>
+                        <label htmlFor='email'>Email:</label>
+                        <input type='email' id='email' name='email' value={email} onChange={(e) => setEmail(e.target.value)} required/>
                     </div>
 
                     <div className='form'>
-                        <textarea cols={"30"} rows={"10"} value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+                        <label htmlFor='message'>Message:</label>
+                        <textarea type='text' id='message' name='message' cols={"30"} rows={"10"} value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
                     </div>
 
                     <div className='form'>

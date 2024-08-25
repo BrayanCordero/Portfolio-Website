@@ -3,17 +3,17 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    color: #ffffff;
+    color: #DBE8D8;
 }
 
 header {
     text-align: center;
     font-size: 2rem;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 3px solid #FEDE00;
     position: fixed;
     width: 100%;
     z-index: 1000;
-    background-color: #000;
+    background-color: #032b0f;
 }
 
 
@@ -21,27 +21,27 @@ main {
     flex: 1; 
     padding: 20px;
     padding-top: 150px; 
-    background-color: #000;
+    background-color: #31533c;
 }
 
 li a {
     text-decoration: none;
-    color: white;
+    color: #DBE8D8;
     font-size: 2.5rem;
 }
 
 li a:hover {
     text-decoration: none;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #FEDE00;
 }
 
 footer {
     text-align: center;
     font-size: 1rem;
-    border-top: 1px solid #e0e0e0;
+    border-top: 3px solid #FEDE00;
     min-height: 60px;
     width: 100%; 
-    background-color: #000;
+    background-color: #032b0f;
 }
 
 
