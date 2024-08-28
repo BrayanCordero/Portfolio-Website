@@ -1,23 +1,45 @@
 
 .home-container{
-    flex: 1;
     display: flex;
     align-items: center;
     padding: 20px;
     margin-top: 50px;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70px;
+    border-right: 3px solid #FEDE00;
+}
+
+.links a img {
+    max-width: 80%;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.links a img:hover {
+    transform: scale(1.1);
+}
+
+.img-container, .greeting-container {
+    flex: 1;
+    display: flex;
 }
 
 .greeting-container {
-    flex: 1;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    overflow: hidden;
+    height: 100%;
 }
 
 .greeting, .name, .title {
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateY(-100%);
     animation: slideIn 1s forwards ease-in-out;
 }
 
@@ -38,7 +60,7 @@
 @keyframes slideIn {
     to {
         opacity: 1;
-        transform: translateX(0);
+        transform: translateY(0);
     }
 }
 
@@ -62,6 +84,23 @@
         margin-top: 20px;
     }
 
+    .greeting-container{
+        margin-top: 20px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .links {
+        width: 120px;
+        flex-direction: row;
+        gap: 15px;
+        margin-top: auto;
+        justify-content:right;
+        border-bottom: 3px solid #FEDE00;
+        border-right: none;
+        padding-bottom: 10px;
+    }
+
     .greeting {
         font-size: 2rem;
     }
@@ -80,5 +119,44 @@
 
     .img-container img {
         max-width: 60%;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-container {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .greeting-container {
+        margin-top: 30px;
+        align-items: center;
+    }
+
+    .links {
+        flex-direction: row;
+        margin-top: auto;
+        gap: 10px;
+        width: 100px;
+    }
+
+    .greeting {
+        font-size: 1.5rem;
+    }
+
+    .name {
+        font-size: 1.25rem;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    .img-container {
+        margin-top: 30px;
+    }
+
+    .img-container img {
+        max-width: 70%;
     }
 }

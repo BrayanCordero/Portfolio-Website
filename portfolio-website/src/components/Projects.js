@@ -4,7 +4,7 @@ import '../styles/ProjectsStyle.css'
 const Projects = () => {
     return (
         <div className='projects'>
-            <div className='goove'>
+            <div className='groove'>
                 <h1><a href="https://github.com/BrayanCordero/GrooveGenie" target="_blank" rel="noopener noreferrer">GooveGenie</a></h1>
                 <p>GooveGenie is a web application that allows users to search for tracks, create custom playlist, and save them to their Spotify account. 
                     This project uses React for the front-end development and integrates with the Spotify API to fetch track information and 

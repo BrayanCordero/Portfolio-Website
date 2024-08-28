@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className='about-container'>
             <div className='about'>
-                <p>As a Full Stack Engineer, I specialize in crafting responsive and dynamic user interfaces with React, Redux, and JavaScript.
+                <p>As a Full Stack Software Engineer, I specialize in crafting responsive and dynamic user interfaces with React, and JavaScript.
                     On the back end, I bring experience in Node.js, Python, .NET, and C#, building robust and scalable applications. 
                     With a strong foundation in Agile methodologies and a passion for problem-solving, I thrive in collaborative environments. 
                     I am constantly seeking to refine my skills and contribute to impactful projects.
