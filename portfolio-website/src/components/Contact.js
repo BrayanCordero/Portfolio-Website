@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
 import emailjs from '@emailjs/browser'
 import '../styles/ContactStyle.css'
-import {SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY} from '../assets/Constants'
+
+
 
 
 const Contact = () => {
@@ -14,9 +15,9 @@ const Contact = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         
-        const serviceId = SERVICE_ID;
-        const templateId = TEMPLATE_ID;
-        const publicKey = PUBLIC_KEY;
+        const serviceId = process.env.REACT_APP_SERVICE_ID;;
+        const templateId = process.env.REACT_APP_TEMPLATE_ID;
+        const publicKey = process.env.REACT_APP_PUBLIC_KEY;
 
         const templateParams = {
             to_name: 'Brayan',
