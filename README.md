@@ -33,11 +33,16 @@ This is a personal portfolio website built to showcase my projects, skills, cert
 2. Navigate to the project directory:
    ```bash
    cd portfolio-website
+
+3. Create .env file and set up variables with your Emailjs keys:
+   REACT_APP_SERVICE_ID
+   REACT_APP_TEMPLATE_ID
+   REACT_APP_PUBLIC_KEY
    
-3. Install dependencies:
+4. Install dependencies:
    ```bash
    npm install
-
-4. Start the development server:
+   
+5. Start the development server:
    ```bash
    npm start
