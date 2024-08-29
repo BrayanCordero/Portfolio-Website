@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/HomeStyle.css'
 import profileImage from "../assets/brayan-home1.jpg"
-import calPoly from "../assets/cal_poly_logo.png"
 import linked from "../assets/linkedin_logo.png"
 import gitH from "../assets/github_logo.png"
 import '../styles/HomeStyle.css'
